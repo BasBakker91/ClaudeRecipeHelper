@@ -1,0 +1,97 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Korean Spicy Chicken Noodle Bowl",
+      "description": "Spicy sticky kip met noodles, paprika en ei - hoog in eiwit met cheat-meal vibes",
+      "cuisine": "Koreaans",
+      "difficulty": "Makkelijk",
+      "cookingTime": "15-20 minuten",
+      "servings": 2,
+      "macros": {
+        "calories": 690,
+        "protein": 48,
+        "carbs": 75,
+        "fat": 18
+      },
+      "ingredients": [
+        {
+          "item": "Kipdijfilet",
+          "quantity": "300 g",
+          "notes": "Of kipfilet voor minder calorieën"
+        },
+        {
+          "item": "Eieren",
+          "quantity": "2",
+          "notes": "Ramen-style zacht of sunny side up"
+        },
+        {
+          "item": "Udon of ramen noodles",
+          "quantity": "200 g",
+          "notes": ""
+        },
+        {
+          "item": "Rode paprika",
+          "quantity": "1",
+          "notes": ""
+        },
+        {
+          "item": "Bosuitjes",
+          "quantity": "2",
+          "notes": "Voor garnering"
+        },
+        {
+          "item": "Gochujang",
+          "quantity": "2 el",
+          "notes": ""
+        },
+        {
+          "item": "Sojasaus",
+          "quantity": "1,5 el",
+          "notes": ""
+        },
+        {
+          "item": "Honing",
+          "quantity": "1 el",
+          "notes": "Of zoetstof"
+        },
+        {
+          "item": "Knoflookpoeder",
+          "quantity": "1 tl",
+          "notes": ""
+        },
+        {
+          "item": "Sesamolie",
+          "quantity": "1 tl",
+          "notes": "Optioneel maar heerlijk"
+        }
+      ],
+      "instructions": [
+        "Kook de noodles volgens de verpakking",
+        "Snijd de kip in kleine stukjes en bak op hoog vuur",
+        "Voeg toe: gochujang, sojasaus, honing, knoflookpoeder en sesamolie. Laat inkoken tot het sticky wordt",
+        "Snijd de paprika in reepjes en bak 2-3 minuten mee",
+        "Kook of bak de eieren (ramen-style zacht of sunny side up)",
+        "Meng de noodles door de sticky kip",
+        "Serveer met ei en bosui bovenop"
+      ],
+      "tips": [
+        "Gebruik kipfilet in plaats van kipdijfilet voor nog minder calorieën",
+        "Voor een ramen-style ei: kook 6,5-7 minuten en schrik in koud water",
+        "Laat de saus goed inkoken voor de beste sticky textuur",
+        "Kan ook als meal-prep variant gemaakt worden",
+        "Snellere 10-minuten versie mogelijk"
+      ],
+      "tags": ["koreaans", "korean", "noodle bowl", "spicy", "pittig", "hoog eiwit", "high protein", "quick", "snel", "weeknight dinner", "doordeweeks", "sticky chicken", "gochujang", "asian", "aziatisch"],
+      "dateAdded": "2026-01-04",
+      "relatedRecipes": ["Zachtgekookt Ei", "Ramen"],
+      "ahShoppingList": null,
+      "notes": "Perfect cheat-meal gevoel maar relatief gezond met hoog eiwitgehalte. Weinig ingrediënten nodig."
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-04",
+    "lastUpdated": "2026-01-04",
+    "totalRecipes": 1
+  }
+}

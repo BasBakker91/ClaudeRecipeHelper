@@ -10,7 +10,9 @@ This project generates Albert Heijn shopping list links from a list of groceries
 AlbertHeijnLinkGenerator/
 ├── .claude/                 # Claude Code configuration
 │   └── settings.local.json  # Local settings for Claude Code
-└── CLAUDE.MD               # This file - project documentation for Claude
+├── supermarkets.json        # Albert Heijn product database (16,173 products)
+├── favorites.json           # User's favorite recipes
+└── CLAUDE.MD                # This file - project documentation for Claude
 ```
 
 ## Development Guidelines
@@ -81,6 +83,8 @@ Each product that couldn't be matched gets its own code block for easy copying.
 - Generate shareable shopping list URLs
 - Support quantity specification for each item
 - Provide complete recipes with ingredients, instructions, and shopping links
+- Save shopping lists and recipes to files for future reference
+- Manage favorite recipes and include them in recipe suggestions
 
 ## Getting Started
 
@@ -218,3 +222,66 @@ After the user selects a recipe, provide:
 ## Products Not Found
 [Any unmatched items in separate code blocks]
 ```
+
+### Favorites System
+
+**Data Storage:**
+- Favorite recipes are stored in `favorites.json`
+- Each recipe includes:
+  - Recipe name, description, cuisine type, difficulty
+  - Cooking time and servings
+  - Macros (calories, protein, carbs, fat per serving)
+  - Ingredients with quantities and optional notes
+  - Step-by-step instructions
+  - Tips and related recipes
+  - Tags for categorization and searching (ALWAYS include bilingual tags - both Dutch and English)
+  - Date added and optional Albert Heijn shopping list URL
+
+**Tag Strategy:**
+- ALWAYS use bilingual tags (both Dutch and English) for maximum searchability
+- Include both languages for key descriptors:
+  - Cuisine: "koreaans" + "korean", "italiaans" + "italian", "aziatisch" + "asian"
+  - Characteristics: "spicy" + "pittig", "quick" + "snel", "easy" + "makkelijk"
+  - Protein/Nutrients: "high protein" + "hoog eiwit", "low carb" + "koolhydraatarm"
+  - Meal type: "weeknight dinner" + "doordeweeks", "meal prep" + "maaltijdvoorbereiding"
+- This allows users to request recipes in either Dutch or English and get matching results
+
+**Adding to Favorites:**
+- User can say "add this to favorites" or "save this recipe" after viewing a full recipe
+- Claude will add the recipe to favorites.json with a unique ID
+- Update metadata (lastUpdated, totalRecipes count)
+
+**Using Favorites in Recipe Suggestions:**
+- When user asks for recipe suggestions, ALWAYS search favorites first
+- Match based on:
+  - Similar tags (e.g., "noodle bowl", "ramen", "Asian", "quick")
+  - Related cuisine types
+  - Cooking time preferences
+  - Dietary preferences
+- Present favorites FIRST in the suggestion list, clearly marked with a star indicator
+- Then show new recipe suggestions
+
+**Favorites Display Format:**
+```
+## Recipe Options
+
+### From Your Favorites ⭐
+
+### 1. [Favorite Recipe Name]
+**Description:** [Brief description]
+**Cooking Time:** [Time]
+**Servings:** [Number]
+**Macros (per serving):** [Calories]kcal | Protein: [X]g | Carbs: [X]g | Fat: [X]g
+
+### New Suggestions
+
+### 2. [New Recipe 1]
+...
+```
+
+**Saving Recipes and Shopping Lists to Files:**
+- When user requests to save a recipe or shopping list, save it as a markdown (.md) file
+- Use descriptive filenames (e.g., `korean-chicken-noodle-bowl.md`, `weekly-groceries.md`)
+- Include all recipe details: ingredients, instructions, macros, shopping links
+- For shopping lists: include item list, quantities, generated AH link, and products not found
+- Files can be reused later to regenerate shopping links or review recipes
