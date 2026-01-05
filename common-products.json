@@ -1,0 +1,137 @@
+{
+  "products": [
+    {
+      "name": "eieren",
+      "aliases": ["eggs", "scharreleieren", "vrije uitloop eieren", "scharrel eieren"],
+      "productCode": "588275",
+      "fullName": "AH Scharreleieren",
+      "category": "proteins-dairy",
+      "notes": "6 stuks pack"
+    },
+    {
+      "name": "zalm filet",
+      "aliases": ["salmon", "zalmfilet", "verse zalm"],
+      "productCode": "190708",
+      "fullName": "AH Biologisch Zalmfilet",
+      "category": "proteins-dairy",
+      "notes": ""
+    },
+    {
+      "name": "gerookte zalm",
+      "aliases": ["smoked salmon", "gerookte zalm"],
+      "productCode": "211064",
+      "fullName": "AH Biologisch Gerookte zalm",
+      "category": "proteins-dairy",
+      "notes": ""
+    },
+    {
+      "name": "biefstuk",
+      "aliases": ["beef steak", "steak", "rundersteak"],
+      "productCode": "123833",
+      "fullName": "AH Biefstuk 2 stuks",
+      "category": "proteins-dairy",
+      "notes": "2 stuks"
+    },
+    {
+      "name": "kipfilet",
+      "aliases": ["chicken breast", "kip", "scharrel kipfilet", "kippenfilet"],
+      "productCode": "598811",
+      "fullName": "AH Biologisch Scharrel kipfilet",
+      "category": "proteins-dairy",
+      "notes": ""
+    },
+    {
+      "name": "tonijn",
+      "aliases": ["tuna", "geelvintonijn", "tonijn blik"],
+      "productCode": "587657",
+      "fullName": "AH Geelvintonijn",
+      "category": "proteins-dairy",
+      "notes": "200g blik"
+    },
+    {
+      "name": "rundergehakt",
+      "aliases": ["ground beef", "gehakt", "mager rundergehakt"],
+      "productCode": "436750",
+      "fullName": "AH Biologisch Mager rundergehakt",
+      "category": "proteins-dairy",
+      "notes": ""
+    },
+    {
+      "name": "kipgehakt",
+      "aliases": ["chicken mince", "kip gehakt", "kippengehakt"],
+      "productCode": "603444",
+      "fullName": "AH Kipgehakt minder vet",
+      "category": "proteins-dairy",
+      "notes": "Minder vet"
+    },
+    {
+      "name": "bacon",
+      "aliases": ["spek", "ontbijtspek"],
+      "productCode": "543389",
+      "fullName": "AH Bacon",
+      "category": "proteins-dairy",
+      "notes": ""
+    },
+    {
+      "name": "kabeljauw",
+      "aliases": ["cod", "kabeljauwfilet"],
+      "productCode": "792",
+      "fullName": "AH Kabeljauw",
+      "category": "proteins-dairy",
+      "notes": ""
+    },
+    {
+      "name": "kwark",
+      "aliases": ["quark", "magere kwark"],
+      "productCode": "1508",
+      "fullName": "AH Biogarde magere kwark",
+      "category": "proteins-dairy",
+      "notes": ""
+    },
+    {
+      "name": "roomkaas",
+      "aliases": ["cream cheese", "philadelphia"],
+      "productCode": "162763",
+      "fullName": "Philadelphia Bieslook",
+      "category": "proteins-dairy",
+      "notes": ""
+    },
+    {
+      "name": "mozzarella",
+      "aliases": ["mozarella", "buffelmozzarella"],
+      "productCode": "238912",
+      "fullName": "AH Biologisch Buffelmozzarella 52+",
+      "category": "proteins-dairy",
+      "notes": ""
+    },
+    {
+      "name": "cheddar",
+      "aliases": ["cheddar kaas", "cheese"],
+      "productCode": "540516",
+      "fullName": "AH Biologisch Cheddar 48+",
+      "category": "proteins-dairy",
+      "notes": ""
+    },
+    {
+      "name": "blauwe bessen",
+      "aliases": ["blueberries", "blauwebessen", "bessen"],
+      "productCode": "519637",
+      "fullName": "AH Biologisch Blauwe bessen",
+      "category": "fruits",
+      "notes": "125g"
+    },
+    {
+      "name": "honing",
+      "aliases": ["honey", "bloemenhoning"],
+      "productCode": "410389",
+      "fullName": "AH Biologisch Bloemenhoning vloeibaar",
+      "category": "pantry",
+      "notes": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-05",
+    "lastUpdated": "2026-01-05",
+    "totalProducts": 16
+  }
+}

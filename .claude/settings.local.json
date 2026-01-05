@@ -5,7 +5,9 @@
       "Bash(find:*)",
       "Bash(curl:*)",
       "Bash(node -e:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(del:*)",
+      "Bash(ls:*)"
     ]
   }
 }
