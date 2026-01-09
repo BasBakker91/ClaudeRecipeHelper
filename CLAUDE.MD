@@ -241,6 +241,7 @@ The system supports two distinct recipe modes based on who the recipe is for:
 
 **Mode 1: "For Me" (Individual - High Protein Carnivore + Fruit)**
 - Target: 40g+ protein per serving
+- Servings: 1 person (1 portie)
 - Allowed foods: ONLY animal products (meat, fish, seafood, eggs, dairy) and fruit
 - Excluded foods: ALL grains, legumes, vegetables
 - Fish and seafood: INCLUDED (allowed in this mode)
@@ -249,6 +250,7 @@ The system supports two distinct recipe modes based on who the recipe is for:
 
 **Mode 2: "For Us" (Shared - Standard)**
 - Standard recipe parameters (no specific macros target)
+- Servings: 2 people (2 porties)
 - Dietary restrictions: EXCLUDE fish, oysters, and shrimp by default
 - Fish/seafood: ONLY include if user explicitly requests it
 - Default language: Dutch
